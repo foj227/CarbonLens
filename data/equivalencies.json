@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "source": "EPA Greenhouse Gases Equivalencies Calculator — Calculations and References",
+    "url": "https://www.epa.gov/energy/greenhouse-gases-equivalencies-calculator-calculations-and-references",
+    "retrieved": "2026-04-20"
+  },
+  "comparisons": [
+    {
+      "id": "smartphone_charges",
+      "label": "smartphone charges",
+      "value_per_kg_co2e": 121.6,
+      "icon": "🔋",
+      "min_kg": 0.01,
+      "max_kg": 5
+    },
+    {
+      "id": "miles_driven_gasoline_car",
+      "label": "miles driven in an average gasoline car",
+      "value_per_kg_co2e": 2.53,
+      "icon": "🚗",
+      "min_kg": 0.5,
+      "max_kg": 500
+    },
+    {
+      "id": "pounds_coal_burned",
+      "label": "pounds of coal burned",
+      "value_per_kg_co2e": 1.10,
+      "icon": "🪨",
+      "min_kg": 1,
+      "max_kg": 1000
+    },
+    {
+      "id": "gallons_gasoline_consumed",
+      "label": "gallons of gasoline consumed",
+      "value_per_kg_co2e": 0.113,
+      "icon": "⛽",
+      "min_kg": 2,
+      "max_kg": 1000
+    },
+    {
+      "id": "tree_seedlings_10yr",
+      "label": "tree seedlings grown for 10 years to offset",
+      "value_per_kg_co2e": 0.0165,
+      "icon": "🌳",
+      "min_kg": 10,
+      "max_kg": 10000
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "_meta": {
+    "source": "EPA Supply Chain Greenhouse Gas Emission Factors v1.3.0 (NAICS-6, CO2e, USD 2022), 'with margins' column (SEF+MEF).",
+    "source_url": "https://pasteur.epa.gov/uploads/10.23719/1531143/SupplyChainGHGEmissionFactors_v1.3.0_NAICS_CO2e_USD2022.csv",
+    "landing_page": "https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6",
+    "methodology": "Spend-based method per GHG Protocol Scope 3 Technical Guidance, Ch. 7. Factors aggregated from NAICS-6 rows to CarbonLens summary categories by averaging across unique USEEIO Reference Codes to avoid weighting by arbitrary NAICS granularity.",
+    "factor_year": 2022,
+    "currency_year": 2022,
+    "unit": "kg CO2e per 2022 USD of purchaser-price output (with margins)",
+    "aggregation": "arithmetic mean over unique USEEIO Reference Codes",
+    "generated_on": "2026-04-20",
+    "status": "production — derived from EPA v1.3.0 CSV"
+  },
+  "categories": {
+    "apparel_and_leather": {
+      "display_name": "Apparel & Leather Products",
+      "naics_prefixes": [
+        "315",
+        "316"
+      ],
+      "kg_co2e_per_usd": 0.201,
+      "unique_reference_codes": [
+        "315000",
+        "316000"
+      ],
+      "num_reference_codes": 2,
+      "notes": "Clothing, footwear, handbags, leather goods.",
+      "example_products": [
+        "shirt",
+        "jeans",
+        "sneakers",
+        "jacket",
+        "handbag"
+      ]
+    },
+    "textile_mills": {
+      "display_name": "Textile & Textile Product Mills",
+      "naics_prefixes": [
+        "313",
+        "314"
+      ],
+      "kg_co2e_per_usd": 0.394,
+      "unique_reference_codes": [
+        "313100",
+        "313200",
+        "313300",
+        "314110",
+        "314120",
+        "314900"
+      ],
+      "num_reference_codes": 6,
+      "notes": "Yarn, fabric, carpets, linens, curtains, towels.",
+      "example_products": [
+        "towels",
+        "bedsheets",
+        "rug",
+        "curtains",
+        "blanket"
+      ]
+    },
+    "computer_and_electronic_products": {
+      "display_name": "Computer & Electronic Products",
+      "naics_prefixes": [
+        "334"
+      ],
+      "kg_co2e_per_usd": 0.0972,
+      "unique_reference_codes": [
+        "334111",
+        "334112",
+        "334118",
+        "334210",
+        "334220",
+        "334290",
+        "334300",
+        "334413",
+        "334418",
+        "33441A",
+        "334510",
+        "334511",
+        "334512",
+        "334513",
+        "334514",
+        "334515",
+        "334516",
+        "334517",
+        "33451A",
+        "334610"
+      ],
+      "num_reference_codes": 20,
+      "notes": "Computers, phones, TVs, audio, semiconductors, instruments.",
+      "example_products": [
+        "laptop",
+        "smartphone",
+        "tv",
+        "headphones",
+        "monitor",
+        "tablet"
+      ]
+    },
+    "electrical_equipment_appliances": {
+      "display_name": "Electrical Equipment & Appliances",
+      "naics_prefixes": [
+        "335"
+      ],
+      "kg_co2e_per_usd": 0.1841,
+      "unique_reference_codes": [
+        "335110",
+        "335120",
+        "335210",
+        "335220",
+        "335311",
+        "335312",
+        "335313",
+        "335314",
+        "335911",
+        "335912",
+        "335920",
+        "335930",
+        "335991",
+        "335999"
+      ],
+      "num_reference_codes": 14,
+      "notes": "Lighting, household appliances, batteries, wiring devices.",
+      "example_products": [
+        "refrigerator",
+        "microwave",
+        "vacuum",
+        "blender",
+        "lamp",
+        "battery"
+      ]
+    },
+    "furniture_and_related": {
+      "display_name": "Furniture & Related Products",
+      "naics_prefixes": [
+        "337"
+      ],
+      "kg_co2e_per_usd": 0.208,
+      "unique_reference_codes": [
+        "337110",
+        "337121",
+        "337122",
+        "337127",
+        "33712N",
+        "337215",
+        "33721A",
+        "337900"
+      ],
+      "num_reference_codes": 8,
+      "notes": "Household, office, institutional furniture and mattresses.",
+      "example_products": [
+        "chair",
+        "sofa",
+        "mattress",
+        "desk",
+        "bookshelf"
+      ]
+    },
+    "plastics_and_rubber": {
+      "display_name": "Plastics & Rubber Products",
+      "naics_prefixes": [
+        "326"
+      ],
+      "kg_co2e_per_usd": 0.3864,
+      "unique_reference_codes": [
+        "326110",
+        "326120",
+        "326130",
+        "326140",
+        "326150",
+        "326160",
+        "326190",
+        "326210",
+        "326220",
+        "326290"
+      ],
+      "num_reference_codes": 10,
+      "notes": "Plastic containers, bags, bottles, hoses, tires.",
+      "example_products": [
+        "storage bin",
+        "plastic bottle",
+        "garden hose",
+        "tire"
+      ]
+    },
+    "meat_poultry_seafood": {
+      "display_name": "Meat, Poultry & Seafood",
+      "naics_prefixes": [
+        "3116",
+        "3117",
+        "11211",
+        "11213",
+        "1122",
+        "1123",
+        "1124",
+        "1125",
+        "1129",
+        "114"
+      ],
+      "kg_co2e_per_usd": 0.9129,
+      "unique_reference_codes": [
+        "1121A0",
+        "112300",
+        "112A00",
+        "114000",
+        "311615",
+        "31161A",
+        "311700"
+      ],
+      "num_reference_codes": 7,
+      "notes": "Animal slaughtering, meat processing, seafood, and upstream animal production and fishing. Typically the highest-intensity consumer category.",
+      "example_products": [
+        "beef",
+        "chicken",
+        "pork",
+        "bacon",
+        "fish",
+        "shrimp"
+      ]
+    },
+    "dairy": {
+      "display_name": "Dairy Products",
+      "naics_prefixes": [
+        "3115",
+        "11212"
+      ],
+      "kg_co2e_per_usd": 0.9436,
+      "unique_reference_codes": [
+        "112120",
+        "311513",
+        "311514",
+        "31151A",
+        "311520"
+      ],
+      "num_reference_codes": 5,
+      "notes": "Milk, cheese, butter, yogurt, ice cream, and dairy cattle operations.",
+      "example_products": [
+        "milk",
+        "cheese",
+        "yogurt",
+        "butter",
+        "ice cream"
+      ]
+    },
+    "beverage_manufacturing": {
+      "display_name": "Beverage Manufacturing",
+      "naics_prefixes": [
+        "3121"
+      ],
+      "kg_co2e_per_usd": 0.2437,
+      "unique_reference_codes": [
+        "312110",
+        "312120",
+        "312130",
+        "312140"
+      ],
+      "num_reference_codes": 4,
+      "notes": "Soft drinks, bottled water, beer, wine, spirits.",
+      "example_products": [
+        "soda",
+        "juice",
+        "beer",
+        "wine",
+        "bottled water"
+      ]
+    },
+    "produce_agriculture": {
+      "display_name": "Fresh Produce & Agriculture",
+      "naics_prefixes": [
+        "1112",
+        "1113",
+        "1114"
+      ],
+      "kg_co2e_per_usd": 0.4753,
+      "unique_reference_codes": [
+        "111200",
+        "111300",
+        "111400"
+      ],
+      "num_reference_codes": 3,
+      "notes": "Fruits, vegetables, melons, greenhouse and nursery produce.",
+      "example_products": [
+        "apple",
+        "lettuce",
+        "tomato",
+        "banana",
+        "strawberry"
+      ]
+    },
+    "food_manufacturing": {
+      "display_name": "Food Manufacturing (packaged)",
+      "naics_prefixes": [
+        "3111",
+        "3112",
+        "3113",
+        "3114",
+        "3118",
+        "3119"
+      ],
+      "kg_co2e_per_usd": 0.4451,
+      "unique_reference_codes": [
+        "311111",
+        "311119",
+        "311210",
+        "311221",
+        "311224",
+        "311225",
+        "311230",
+        "311300",
+        "311410",
+        "311420",
+        "311810",
+        "3118A0",
+        "311910",
+        "311920",
+        "311930",
+        "311940",
+        "311990"
+      ],
+      "num_reference_codes": 17,
+      "notes": "Packaged/processed food: cereal, snacks, canned goods, baked goods, confectionery. Excludes meat, dairy, beverages which have their own categories.",
+      "example_products": [
+        "cereal",
+        "canned soup",
+        "chips",
+        "cookies",
+        "pasta"
+      ]
+    },
+    "pharmaceuticals": {
+      "display_name": "Pharmaceuticals & Medicine",
+      "naics_prefixes": [
+        "3254"
+      ],
+      "kg_co2e_per_usd": 0.1552,
+      "unique_reference_codes": [
+        "325411",
+        "325412",
+        "325413",
+        "325414"
+      ],
+      "num_reference_codes": 4,
+      "notes": "OTC and prescription drugs, vitamins, supplements.",
+      "example_products": [
+        "vitamin",
+        "supplement",
+        "ibuprofen",
+        "melatonin"
+      ]
+    },
+    "chemicals_and_personal_care": {
+      "display_name": "Chemicals & Personal Care",
+      "naics_prefixes": [
+        "3255",
+        "3256"
+      ],
+      "kg_co2e_per_usd": 0.3427,
+      "unique_reference_codes": [
+        "325510",
+        "325520",
+        "325610",
+        "325620"
+      ],
+      "num_reference_codes": 4,
+      "notes": "Soaps, detergents, cosmetics, toiletries, paints, adhesives.",
+      "example_products": [
+        "shampoo",
+        "detergent",
+        "toothpaste",
+        "lotion",
+        "makeup"
+      ]
+    },
+    "paper_products": {
+      "display_name": "Paper & Paper Products",
+      "naics_prefixes": [
+        "322"
+      ],
+      "kg_co2e_per_usd": 0.5377,
+      "unique_reference_codes": [
+        "322110",
+        "322120",
+        "322130",
+        "322210",
+        "322220",
+        "322230",
+        "322291",
+        "322299"
+      ],
+      "num_reference_codes": 8,
+      "notes": "Notebooks, toilet paper, paper towels, stationery, packaging.",
+      "example_products": [
+        "notebook",
+        "toilet paper",
+        "paper towels",
+        "envelope"
+      ]
+    },
+    "printed_matter": {
+      "display_name": "Printing & Publishing",
+      "naics_prefixes": [
+        "323",
+        "5111"
+      ],
+      "kg_co2e_per_usd": 0.1455,
+      "unique_reference_codes": [
+        "323110",
+        "323120",
+        "511110",
+        "511120",
+        "511130",
+        "5111A0"
+      ],
+      "num_reference_codes": 6,
+      "notes": "Magazines, posters, calendars, greeting cards, published books.",
+      "example_products": [
+        "magazine",
+        "poster",
+        "calendar",
+        "greeting card"
+      ]
+    },
+    "metal_products": {
+      "display_name": "Fabricated Metal Products",
+      "naics_prefixes": [
+        "332"
+      ],
+      "kg_co2e_per_usd": 0.2621,
+      "unique_reference_codes": [
+        "332114",
+        "332119",
+        "33211A",
+        "332200",
+        "332310",
+        "332320",
+        "332410",
+        "332420",
+        "332430",
+        "332500",
+        "332600",
+        "332710",
+        "332720",
+        "332800",
+        "332913",
+        "33291A",
+        "332991",
+        "332996",
+        "332999",
+        "33299A"
+      ],
+      "num_reference_codes": 20,
+      "notes": "Tools, cookware, cutlery, hardware, fasteners, metal containers.",
+      "example_products": [
+        "knife",
+        "pan",
+        "hammer",
+        "cutlery",
+        "flatware"
+      ]
+    },
+    "machinery": {
+      "display_name": "Machinery",
+      "naics_prefixes": [
+        "333"
+      ],
+      "kg_co2e_per_usd": 0.1979,
+      "unique_reference_codes": [
+        "333111",
+        "333112",
+        "333120",
+        "333130",
+        "333242",
+        "33329A",
+        "333314",
+        "333316",
+        "333318",
+        "333413",
+        "333414",
+        "333415",
+        "333511",
+        "333514",
+        "333517",
+        "33351B",
+        "333611",
+        "333612",
+        "333613",
+        "333618",
+        "333912",
+        "333914",
+        "333920",
+        "333991",
+        "333993",
+        "333994",
+        "33399A",
+        "33399B"
+      ],
+      "num_reference_codes": 28,
+      "notes": "Power tools, lawn equipment, HVAC, industrial machinery.",
+      "example_products": [
+        "drill",
+        "lawnmower",
+        "saw",
+        "pump"
+      ]
+    },
+    "transportation_equipment": {
+      "display_name": "Transportation Equipment",
+      "naics_prefixes": [
+        "336"
+      ],
+      "kg_co2e_per_usd": 0.2476,
+      "unique_reference_codes": [
+        "336111",
+        "336112",
+        "336120",
+        "336211",
+        "336212",
+        "336213",
+        "336214",
+        "336310",
+        "336320",
+        "336350",
+        "336360",
+        "336370",
+        "336390",
+        "3363A0",
+        "336411",
+        "336412",
+        "336413",
+        "336414",
+        "33641A",
+        "336500",
+        "336611",
+        "336612",
+        "336991",
+        "336992",
+        "336999"
+      ],
+      "num_reference_codes": 25,
+      "notes": "Bicycles, motor vehicle parts, boats, aerospace.",
+      "example_products": [
+        "bicycle",
+        "scooter",
+        "helmet",
+        "car battery"
+      ]
+    },
+    "sporting_toys_other_manufacturing": {
+      "display_name": "Sporting Goods, Toys & Misc. Manufacturing",
+      "naics_prefixes": [
+        "339"
+      ],
+      "kg_co2e_per_usd": 0.1675,
+      "unique_reference_codes": [
+        "339112",
+        "339113",
+        "339114",
+        "339115",
+        "339116",
+        "339910",
+        "339920",
+        "339930",
+        "339940",
+        "339950",
+        "339990"
+      ],
+      "num_reference_codes": 11,
+      "notes": "Sports equipment, toys, jewelry, musical instruments, medical supplies.",
+      "example_products": [
+        "ball",
+        "toy",
+        "lego",
+        "watch",
+        "guitar",
+        "yoga mat"
+      ]
+    },
+    "wood_products": {
+      "display_name": "Wood Products",
+      "naics_prefixes": [
+        "321"
+      ],
+      "kg_co2e_per_usd": 0.1975,
+      "unique_reference_codes": [
+        "321100",
+        "321200",
+        "321910",
+        "3219A0"
+      ],
+      "num_reference_codes": 4,
+      "notes": "Lumber, plywood, wood containers, wood decor.",
+      "example_products": [
+        "cutting board",
+        "wooden shelf",
+        "picture frame"
+      ]
+    },
+    "retail_trade_general": {
+      "display_name": "General Retail (fallback)",
+      "naics_prefixes": [
+        "452"
+      ],
+      "kg_co2e_per_usd": 0.164,
+      "unique_reference_codes": [
+        "452000"
+      ],
+      "num_reference_codes": 1,
+      "notes": "Fallback when no category matches. Uses the general-merchandise retail factor (dept. stores, warehouse clubs, supercenters) which represents the blended mix of goods a typical big-box retailer sells.",
+      "example_products": []
+    }
+  }
+}
