@@ -47,17 +47,14 @@ A popup (extension icon) shows a running session total of emissions from all pro
 **1. Collapsed badge (high-impact product — ground beef)**
 
 ![Badge showing 36 kg CO2e on a ground beef product page, red severity](docs/screenshots/badge-collapsed-beef.png)
-*(placeholder — take this screenshot after loading the extension on a meat product page)*
 
 **2. Expanded methodology card**
 
 ![Expanded card showing confidence level, category, formula, and EPA citation](docs/screenshots/badge-expanded.png)
-*(placeholder — click the badge to expand, then screenshot)*
 
 **3. Popup — session total**
 
 ![Popup showing 89 kg CO2e across 4 products, equivalences, reset button](docs/screenshots/popup.png)
-*(placeholder — open the popup after visiting several product pages)*
 
 ---
 
