@@ -164,7 +164,7 @@ Future work (not implemented in MVP):
 
 ## Credits & License
 
-**Author:** Student, Environmental Science, Lehigh University, Spring 2026.
+**Author:** Foster Johnson, Computer Science and Business, Lehigh University, Spring 2026.
 
 **Data:**
 - EPA USEEIO Supply Chain GHG Emission Factors: U.S. Government Work (public domain). Credit: Wesley Ingwersen et al., U.S. EPA Office of Research and Development.
